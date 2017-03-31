@@ -43,7 +43,8 @@ article li a {
 }
 
 article li a:hover {
-    background-color: #111
+    background-color: #111;
+    color: white;
 
  }   
 
@@ -61,6 +62,8 @@ article li a:hover {
     background-repeat: no-repeat;
     padding: 12px 20px 12px 40px;
 }
+
+
 
 /*-----------------------------------------------SECTION--------------------------------------------------------*/
 
