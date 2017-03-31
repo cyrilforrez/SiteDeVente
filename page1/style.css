@@ -79,6 +79,12 @@ li a:hover {
 	right: 10%; top: 10%;
 }
 
+p {
+	font-family: "Times New Roman", Times, sans-serif;
+}
+
+
+
 
 /*------------------------------------------FOOTER--------------------------------------------------------------*/
 
@@ -86,4 +92,12 @@ li a:hover {
 	position: absolute;
     bottom: 0px;
     width: 100%;
+}
+
+a {
+	font-family: "Times New Roman", Times, sans-serif;
+}
+
+a:hover {
+	color: black;
 }
