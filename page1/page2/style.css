@@ -1,3 +1,8 @@
+h1,form,footer {text-align: center;}
+
+body {margin: auto;}
+
+
 /*----------------------------------Header-------------------------------------------------*/
 
 
@@ -53,10 +58,31 @@ li a:hover {
     padding: 12px 20px 12px 40px;
 }
 
+/*--------------------------------------------ARTICLE-----------------------------------------------------------*/
+
+div {
+    position: relative;
+    overflow: hidden;
+    height: 800px;
+}
+
+div article {
+    margin-top: 5%;
+    height: 100%;
+}
+
+.caract {
+    text-align: left;
+    position: absolute;
+    left:30%; top: 8%;
+    width: 500px;
+    background-color: yellow;
+}
+
+ 
 /*------------------------------------------FOOTER--------------------------------------------------------------*/
 
 .navright {
-    position: absolute;
     bottom: 0px;
     width: 100%;
 }
