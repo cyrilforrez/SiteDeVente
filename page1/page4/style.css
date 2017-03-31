@@ -1,3 +1,9 @@
+h1,form,footer {text-align: center;}
+
+body {
+    margin: auto;
+}
+
 /*----------------------------------Header-------------------------------------------------*/
 
 
@@ -14,7 +20,7 @@ header img {
 
 /*--------------------------------------Nav Bar--------------------------------------------*/
 
-ul {
+article ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -22,12 +28,12 @@ ul {
     background-color: #333;
 }
 
-li {
+article li {
     float: left;
     
 }
 
-li a {
+article li a {
     display: block;
     color: white;
     text-align: center;
@@ -35,8 +41,9 @@ li a {
     text-decoration: none;
 }
 
-li a:hover {
-    background-color: #111
+article li a:hover {
+    background-color: #111;
+    color: white;
 
  }   
 
@@ -53,9 +60,55 @@ li a:hover {
     padding: 12px 20px 12px 40px;
 }
 
+/*--------------------------------------------ARTICLE----------------------------------------------------------*/
+
+.row {
+    margin: 0 auto;
+    max-width: 62.5rem;
+    width: 100%;
+    position: relative;
+padding-left: 0.9375rem;
+padding-right: 0.9375rem;
+}
+
+h2 {
+    color: #222222;
+    font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+}
+
+aside {
+    display: inline-block;
+}
+
+div aside li {
+        margin-top: 10px;
+        margin-bottom: 1em;
+        margin: 0 0 0.7rem 0;
+        color: #333;
+        cursor: pointer;
+}
+
+div aside ul {
+    font-family: inherit;
+    font-size: 1rem;
+    line-height: 1.6;
+}
+
+.art {
+    font-family: inherit;
+    font-size: 1rem;
+    font-weight: normal;
+    line-height: 1.6;
+    position: absolute;
+    display: inline-block;
+    margin: 0px 0px 0px 80px;
+}
+
 /*------------------------------------------FOOTER--------------------------------------------------------------*/
 
-.foot {
+.navright {
     position: absolute;
     bottom: 0px;
     width: 100%;
@@ -67,4 +120,31 @@ a {
 
 a:hover {
     color: black;
+} 
+
+.navright ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
 }
+
+.navright li {
+    float: right;
+    
+}
+
+.navright li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navright li a:hover {
+    background-color: #111;
+    color: white;
+
+ } 
