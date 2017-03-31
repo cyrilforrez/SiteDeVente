@@ -88,16 +88,43 @@ p {
 
 /*------------------------------------------FOOTER--------------------------------------------------------------*/
 
-.foot {
-	position: absolute;
+.navright {
+    position: absolute;
     bottom: 0px;
     width: 100%;
 }
 
 a {
-	font-family: "Times New Roman", Times, sans-serif;
+    font-family: "Times New Roman", Times, sans-serif;
 }
 
 a:hover {
-	color: black;
+    color: black;
+} 
+
+.navright ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
 }
+
+.navright li {
+    float: right;
+    
+}
+
+.navright li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navright li a:hover {
+    background-color: #111;
+    color: white;
+
+ } 
