@@ -41,7 +41,8 @@ li a {
 }
 
 li a:hover {
-    background-color: #111
+    background-color: #111;
+    color: white;
 
  }   
 
@@ -72,14 +73,18 @@ div article {
 }
 
 .caract {
-    text-align: left;
+    
     position: absolute;
     left:30%; top: 8%;
     width: 500px;
     background-color: yellow;
 }
 
- 
+.listcaract li {
+    text-align: left;
+    height: 30px;
+    display: block;
+} 
 /*------------------------------------------FOOTER--------------------------------------------------------------*/
 
 .navright {
