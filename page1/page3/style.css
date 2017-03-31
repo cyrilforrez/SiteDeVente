@@ -1,3 +1,10 @@
+h1,form,footer {text-align: center;}
+
+body {
+    margin: auto;
+}
+
+
 /*----------------------------------Header-------------------------------------------------*/
 
 
@@ -14,7 +21,7 @@ header img {
 
 /*--------------------------------------Nav Bar--------------------------------------------*/
 
-ul {
+article ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -22,12 +29,12 @@ ul {
     background-color: #333;
 }
 
-li {
+article ul li {
     float: left;
     
 }
 
-li a {
+article li a {
     display: block;
     color: white;
     text-align: center;
@@ -35,10 +42,12 @@ li a {
     text-decoration: none;
 }
 
-li a:hover {
+article li a:hover {
     background-color: #111
 
  }   
+
+/*--------------------------------------search bar-------------------------------------------------------------*/
 
  input[type=text] {
     width: 30%;
@@ -52,6 +61,24 @@ li a:hover {
     background-repeat: no-repeat;
     padding: 12px 20px 12px 40px;
 }
+
+/*-----------------------------------------------SECTION--------------------------------------------------------*/
+
+.row {
+    margin: 0 auto;
+max-width: 62.5rem;
+width: 100%;
+}
+
+hr {
+    border: solid #DDDDDD;
+    border-width: 1px 0 0;
+    clear: both;
+    height: 0;
+    margin: 1.25rem 0 1.1875rem;
+    box-sizing: content-box;
+}
+
 
 /*------------------------------------------FOOTER--------------------------------------------------------------*/
 
