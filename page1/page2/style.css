@@ -2,6 +2,11 @@ h1,form,footer {text-align: center;}
 
 body {margin: auto;}
 
+#article1,#article2,#article3 {background-color: white;}
+
+#article1:target,#article2:target,#article3:target,.art1:target,.art2:target,.art3:target,.art1,.art2,.art3 { position: absolute; }
+
+h2 { text-decoration: underline; }
 
 /*----------------------------------Header-------------------------------------------------*/
 
@@ -61,23 +66,55 @@ article li a:hover {
 
 /*--------------------------------------------ARTICLE-----------------------------------------------------------*/
 
-div {
+.arti {
     position: relative;
-    overflow: hidden;
-    height: 800px;
+ }
+
+#article1:target {  
+    height: 545px; width: 100%;
+    top: 0%;
+    padding-top: 5%;
+
 }
 
-div article {
-    margin-top: 5%;
-    height: 100%;
-}    
-
-.art {
-    position: absolute;
-    left: 35%; top: 5%;
-    
+#article2:target { 
+    height: 545px; width: 100%;
+    top: 0%;
+    padding-top: 5%;
 }
 
+#article3:target { 
+    height: 545px; width: 100%;
+    top:0%;
+    padding-top: 5%;
+}
+
+.art1:target { 
+    left: 30%; top: 5%;
+    height: 95%; width: 100%;
+}
+
+.art2:target { 
+    left: 30%; top: 5%;
+    height: 95%; width: 100%;
+}
+
+.art3:target { 
+    left: 30%; top: 5%;
+    height: 95%; width: 100%;
+}
+
+.art1 {
+    top: 35px; left: 30%;
+    }
+
+.art2 {
+    top: 35px; left: 30%;
+}
+
+.art3 {
+    top: 35px; left: 30%;
+}
 
 /*------------------------------------------FOOTER--------------------------------------------------------------*/
 
